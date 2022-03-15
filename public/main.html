@@ -1,0 +1,46 @@
+<html lang="en">
+    <head>
+        KyungMoo Park's lovely Home ♥♡
+        <script src="web3.min.js" charset="utf-8"></script>
+        <script src="index.js" charset="utf-8"></script>
+        <form name="deployForm" method="post">
+            계정 주소:
+            <input id="InputAccount" type="text" name="InputAccount">
+            이미지 이름:
+            <input id="InputName" type="text" name="InputName">
+            <br>
+            이미지 주소:
+            <input id="InputAddress" type="text" name="InputAddress">
+            <br>
+            보낼사람 주소:
+            <input id="toAddress" type="text" name="toAddress">
+        </form>
+
+        <button id="btnDepoly" type="button" onclick="createSkin()">발행</button>
+        <button id="btnDepolyMeta" type="button" onclick="createSkinMeta()">MetaMask 발행</button>
+        <br>
+        <button id="btnResult" type="button" onclick="getSkinsNumber()">가진갯수</button>
+        <br>
+        <button id="btnWallet" type="button" onclick="connectWallet()">지갑연결</button>
+        <button id="btnLoad" type="button" onclick="loadWallet()">계정 불러오기</button>
+        <br>
+        <button id="btnList" type="button" onclick="getSkinsByOwner()">스킨 띄우기</button>
+        <br>
+        <button id="btnTransfer" type="button" onclick="transfer()">전송하기</button>
+        <button id="btnTransferMeta" type="button" onclick="transferMeta()">MetaMask 전송하기</button>
+    </head>
+<body>
+    <br>
+
+    <img id="imgNFT" src="" width="300" height="300">
+    <br>
+    <br>
+    BKM NFT
+    <br>
+    QmV9eyRefaEwGeSxtQhiqhK8rz9vn3dVVBiLHtSm6VRVPu
+    <br>
+    JSY NFT
+    <br>
+    QmXZ67vmBqoHoRWTEpYQCtmioCrjC6xyUdPok34xVqjKmN
+</body>
+</html>
